@@ -1,4 +1,4 @@
-#OPENGL_FLAG   = -lGL
+OPENGL_FLAG   = -lGL -lGLU
 X_FLAG		  = -lX11
 COMPILE_FLAGS = -O2 $(OPENGL_FLAG) $(X_FLAG)
 CPP   		  = g++ $(COMPILE_FLAGS)
