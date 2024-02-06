@@ -11,7 +11,7 @@ GREEN_COLOR   = '\033[0;32m'
 DEFAULT_COLOR = '\033[0m'
 
 all:
-	$(CPP) $(SRC)main.cpp -o $(EXE)
+	$(CPP) $(SRC)main.cpp  -o $(EXE)
 	@echo  $(GREEN_COLOR) Compilation ends successfully! $(DEFAULT_COLOR)
 
 #$(OBJ)NotInt.o: $(SRC)NotInt/NotInt.cpp $(SRC)NotInt/NotInt.h
